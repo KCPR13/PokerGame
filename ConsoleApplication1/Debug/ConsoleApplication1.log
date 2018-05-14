@@ -1,0 +1,23 @@
+﻿  Main.cpp
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\karta.h(7): error C2011: 'Karta': 'class' type redefinition
+  c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\karta.h(7): note: see declaration of 'Karta'
+  gra.cpp
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\karta.h(7): error C2011: 'Karta': 'class' type redefinition
+  c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\karta.h(7): note: see declaration of 'Karta'
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(43): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(54): error C2079: 'k' uses undefined class 'Karta'
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(55): error C2228: left of '.kolor' must have class/struct/union
+  c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(55): note: type is 'int'
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(56): error C2228: left of '.figura' must have class/struct/union
+  c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(56): note: type is 'int'
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(58): error C2664: 'void std::vector<Karta,std::allocator<_Ty>>::push_back(_Ty &&)': cannot convert argument 1 from 'int' to 'const Karta &'
+          with
+          [
+              _Ty=Karta
+          ]
+  c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(58): note: Reason: cannot convert from 'int' to 'const Karta'
+  c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(58): note: use of undefined type 'Karta'
+  c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\karta.h(6): note: see declaration of 'Karta'
+c:\users\lenovo\onedrive\ericsson\16th\consoleapplication1\consoleapplication1\gra.cpp(62): warning C4244: 'initializing': conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+  Generating Code...
