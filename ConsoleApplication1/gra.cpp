@@ -24,7 +24,7 @@ void Gra::pobierzLiczbeGraczy()
 void Gra::dodajGracza( int numer)
 {
 	string nazwa;
-	cout << "Podaj nazwe gracza" << (numer + 1);
+	cout << "Podaj nazwe gracza " << (numer + 1);
 	cin >> nazwa;
 	gracze[numer] = new GraczLudzki(nazwa);
 
@@ -53,7 +53,7 @@ void Gra::przygotujKarty()
 	{
 		Karta k;
 		k.kolor= (Kolor)(i / 13);
-		k.figura = (Figura)(i % 13+1);
+		k.figura = (Figura)((i % 13)+1);
 		karty.push_back(k);
 	}
 	
@@ -63,12 +63,12 @@ void Gra::przygotujKarty()
 
 void Gra::rozdajKarty()
 {
-	for (size_t z=0; z=0 <iloscGraczy ; z++)
+	for (int z=0; z<iloscGraczy ; z++)
 	{
-		for (size_t i = 0; i < 5; i++)
+		for (int i = 0; i < 5; i++)
 		{
-			gracze[z]->wezKarte(karty[0]);
-			karty.erase(karty.begin(),karty.begin()+0);
+			gracze[z]->wezKarte(karty.front());
+			karty.erase(karty.begin(),++karty.begin());
 		}
 	}
 	

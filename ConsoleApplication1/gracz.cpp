@@ -31,6 +31,6 @@ void Gracz::wypiszKarty()
 {
 	for (int i = 0; i <ileKart(); i++)
 	{
-		
+		karty[i].wypisz();
 	}
 }

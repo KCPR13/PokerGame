@@ -42,4 +42,5 @@
 		break;
 	
 	}
+	cout << endl;
 }

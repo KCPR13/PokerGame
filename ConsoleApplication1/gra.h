@@ -10,11 +10,12 @@
 
 class Gra
 {
+public:
 	Gracz* gracze[6];
 	Stan stan;
 	vector<Karta> karty;
 	int iloscGraczy;
-public:
+
 	/*int obliczSileUkladuGracza(Gracz& gracz);*/
 	void przygotujKarty();
 	void rozdajKarty();

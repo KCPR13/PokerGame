@@ -12,13 +12,12 @@ int main()
 {
 	Gra *gra = new Gra();
 	gra->przygotujGraczy();
+	gra->przygotujKarty();
 	gra->rozdajKarty();
 	gra->odkryjKarty();
-
-	if (Stan::KONIEC)
-	{
-		delete gra;
-	}
+	
+	delete gra;
+	
 	
 	return 0;
 }
