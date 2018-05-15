@@ -21,5 +21,5 @@ public:
 
 
 
-#endif GRACZLUDZKI_H
+#endif //GRACZLUDZKI_H
 

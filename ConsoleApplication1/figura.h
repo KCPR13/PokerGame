@@ -18,5 +18,5 @@ enum Figura
 	KROL	
 };
 
-#endif FIGURA_H
+#endif //FIGURA_H
 

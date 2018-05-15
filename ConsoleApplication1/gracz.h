@@ -19,10 +19,10 @@ public:
 	 virtual vector<Karta> pokazKarty();
 	 virtual void wezKarte(Karta k);
 	 virtual Karta oddajKarte(int numer);
-	 virtual string podajNazwe();
+	 //virtual string podajNazwe();
 	 virtual int ileKart();
 	 virtual void wypiszKarty();
 };
 
-#endif GRACZ_H
+#endif // GRACZ_H
 

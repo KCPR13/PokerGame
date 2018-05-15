@@ -1,3 +1,6 @@
+#ifndef KARTA_H
+#define KARTA_H
+
 #include "stdafx.h"
 #include "kolor.h"
 #include "figura.h"
@@ -11,4 +14,8 @@ public:
 	Kolor kolor;
 	void wypisz();
 };
+
+#endif // !KARTA_H
+
+
 

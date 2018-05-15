@@ -56,16 +56,7 @@
     <ClCompile Include="gracz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="kolor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="figura.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="gra.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="stan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="karta.cpp">

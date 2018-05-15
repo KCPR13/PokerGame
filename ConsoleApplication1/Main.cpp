@@ -15,5 +15,10 @@ int main()
 	gra->rozdajKarty();
 	gra->odkryjKarty();
 
+	if (Stan::KONIEC)
+	{
+		delete gra;
+	}
+	
 	return 0;
 }

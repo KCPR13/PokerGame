@@ -8,4 +8,4 @@ enum Kolor
 	PIK,
 	TREFL
 };
-#endif KOLOR_H
+#endif //KOLOR_H

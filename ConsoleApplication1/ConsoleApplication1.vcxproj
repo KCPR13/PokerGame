@@ -159,14 +159,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="figura.cpp" />
     <ClCompile Include="gra.cpp" />
     <ClCompile Include="gracz.cpp" />
     <ClCompile Include="graczbot.cpp" />
     <ClCompile Include="graczLudzki.cpp" />
     <ClCompile Include="karta.cpp" />
-    <ClCompile Include="kolor.cpp" />
-    <ClCompile Include="stan.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
